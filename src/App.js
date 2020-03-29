@@ -1,15 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import photo from './images/balboa_park_me.jpg';
 import './App.css';
+import Nav from './components/Nav'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function Header(props) {
   return <header className="App-header">
     <h1>Laura Hawkins</h1>
-    <nav >
-      <a className="App=link" href="index.html" target="_blank" rel="noopener noreferrer">About Me</a> |
-      <a className="App=link" href="portfolio.html" target="_blank" rel="noopener noreferrer">Portfolio</a> |
-      <a className="App=link" href="contact.html" target="_blank" rel="noopener noreferrer">Contact</a>
-    </nav>
+    
   </header>
 }
 
@@ -33,6 +31,7 @@ function Footer(props) {
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Header />
       <Project />
       <Footer />
@@ -40,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
