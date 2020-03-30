@@ -7,6 +7,7 @@ This REACT portfolio highlights my projects from the coding bootcamp at UCSD.
 
 npm run start
 
+ctrl + c in terminal to stop
 ## Credits
 
 Collaborated with the UCSD Extension Coding Bootcamp

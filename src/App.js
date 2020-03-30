@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function Header(props) {
   return <header className="App-header">
-    <h1>Laura Hawkins</h1>
-    
+  
+   
   </header>
 }
 
@@ -31,7 +31,6 @@ function Footer(props) {
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Header />
       <Project />
       <Footer />
