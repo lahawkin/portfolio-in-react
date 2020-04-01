@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import photo from './images/balboa_park_me.jpg';
 import './App.css';
 import Nav from './components/Nav'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+//import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function Header(props) {
   return <header className="App-header">
   
-   
+   <Nav/>
   </header>
 }
 
